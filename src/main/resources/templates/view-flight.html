@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Add Pilot</title>
+	</head>
+	
+	<body>
+		<h3>Flight Detail</h3>
+		<h3>Pilot License Number : </h3> <h3 th:text="${pilot.licenseNumber}"></h3>
+		<h3>Pilot Name : </h3> <h3 th:text="${pilot.name}"></h3><br><br>
+		
+		
+		<h3>Flight Number : </h3> <h3 th:text="${flight.flightNumber}"></h3>
+		<h3>Origin : </h3> <h3 th:text="${flight.origin}"></h3>
+		<h3>Destination : </h3> <h3 th:text="${flight.destination}"></h3>
+		<h3>Time : </h3> <h3 th:text="${flight.time}"></h3>
+				
+	</body>
+</html>
