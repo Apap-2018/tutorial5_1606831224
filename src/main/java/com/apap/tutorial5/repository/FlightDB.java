@@ -1,4 +1,4 @@
-package com.apap.tutorial4.repository;
+package com.apap.tutorial5.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.apap.tutorial4.model.FlightModel;
+import com.apap.tutorial5.model.FlightModel;
 
 /*
  * 

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 	<head>
-		<title>Add Pilot</title>
+		
+		<object th:include="fragments/fragment :: header" th:remove="tag"></object>
+
 	</head>
 	
 	<body>
+	
+		<nav th:replace="fragments/fragment :: navbar"></nav>
 		<h3>Flight Detail</h3>
 		<h3>Pilot License Number : </h3> <h3 th:text="${pilot.licenseNumber}"></h3>
 		<h3>Pilot Name : </h3> <h3 th:text="${pilot.name}"></h3><br><br>

@@ -1,6 +1,6 @@
-package com.apap.tutorial4.service;
+package com.apap.tutorial5.service;
 
-import com.apap.tutorial4.model.FlightModel;
+import com.apap.tutorial5.model.FlightModel;
 
 /*
  * 

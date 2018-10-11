@@ -1,4 +1,4 @@
-package com.apap.tutorial4.model;
+package com.apap.tutorial5.model;
 
 import java.io.Serializable;
 import java.sql.Date;
@@ -17,6 +17,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
+import org.springframework.beans.factory.annotation.Value;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
